@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".activity_mh9635">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="109dp"
+        android:layout_height="44dp"
+        android:text="Page 2!"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        android:text="GO TO PAGE 1"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="301dp" />
 </android.support.constraint.ConstraintLayout>
