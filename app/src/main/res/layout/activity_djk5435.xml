@@ -4,26 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity_djk5435">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="121dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="textPersonName"
         android:text="Page 1"
         android:textSize="30sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="197dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:text="Go to page 2"
+        android:layout_height="wrap_content"
+        android:text="Go to page 2!"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="360dp" />
-
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="352dp" />
 </android.support.constraint.ConstraintLayout>
